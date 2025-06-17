@@ -1,0 +1,22 @@
+/*[src/components/ChatMessage.css]*/
+.chat-message {
+  transition: background-color 0.3s ease-in-out;
+  word-wrap: break-word;
+  border-radius: 20px;
+  padding: 10px 15px;
+  position: relative;
+  max-width: 70%;
+  margin: 5px 0;
+}
+
+.chat-message.user {
+  background: goldenrod;
+  align-self: flex-end;
+  color: #212121;
+}
+
+.chat-message.bot {
+  background: royalblue;
+  align-self: flex-start;
+  color: white;
+}
