@@ -1,1 +1,0 @@
-# Nabot Linux Assistant
