@@ -1,6 +1,6 @@
 /*[src/main.js]*/
 const { app, BrowserWindow } = require("electron");
-const os = require("os");
+const path = require("path");
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -9,6 +9,7 @@ function createWindow() {
     frame: false,
     transparent: true,
     backgroundColor: "#00000000",
+    icon: path.join(__dirname, 'assets/logo192.png'), // Add the path to your logo here
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
